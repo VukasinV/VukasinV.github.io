@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: pink;
+}
+
+.body-content {
+    flex: 1 0 auto;
+    display: flex;
+}
+
+main {
+    flex: 1 0 auto;
+    background: lightcoral;
+}
+
+nav {
+    width: 100px;
+    text-align: left;
+    order: -1;
+    background: yellow;
+    margin: 0;
+}
+
+aside {
+    width: 100px;
+    background: orange;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: cyan;
+}
