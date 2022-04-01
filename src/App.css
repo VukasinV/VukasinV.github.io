@@ -1,0 +1,13 @@
+.container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}

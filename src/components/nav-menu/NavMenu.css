@@ -1,0 +1,15 @@
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu__element {
+  cursor: pointer;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
+}
+
+.nav-menu__element:hover {
+  text-decoration-color: rgba(0, 0, 0, 1);
+}
